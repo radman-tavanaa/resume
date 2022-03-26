@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+{% block content %}
+
+  <main id="main">
+
+    <!-- ======= Portfolio Details Section ======= -->
+    <section id="portfolio-details" class="portfolio-details pt-5">
+      <div class="container">
+
+        <div class="row gy-4">
+          {% if details %}
+          
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper">
+              <div class="swiper-wrapper align-items-center">
+
+                <div class="swiper-slide">
+                  <img src="{{details.photo_main.url}}" alt="" class="p-4">
+                </div>
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4" {% if LANGUAGE_BIDI %} dir="rtl" {% endif %}>
+            <div class="portfolio-info">
+              <h3 {% if LANGUAGE_BIDI %} style="font-family: Shabnam !important ;" {% endif %}>{% translate "Project information" %}</h3>
+              <ul>
+                <li {% if LANGUAGE_BIDI %} style="font-family: Shabnam !important ;" {% endif %}><strong>{% translate "Category" %}</strong>: {{details.category}}</li>
+                <li {% if LANGUAGE_BIDI %} style="font-family: Shabnam !important ;" {% endif %}><strong>{% translate "Client" %}</strong>: {{details.client}}</li>
+                <li {% if LANGUAGE_BIDI %} style="font-family: Shabnam !important ;" {% endif %}><strong>{% translate "Project date" %}</strong>: {{details.project_date}}</li>
+                <li {% if LANGUAGE_BIDI %} style="font-family: Shabnam !important ;" {% endif %}><strong>{% translate "Project URL" %}</strong>: <a href="{{details.project_url}}">{{details.project_url}}</a></li>
+              </ul>
+            </div>
+            <div class="portfolio-description">
+              <h2>{{details.title}}</h2>
+              <p>
+                {{details.body}}
+              </p>
+            </div>
+          </div>
+          {% endif %}
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Details Section -->
+
+  </main><!-- End #main -->
+  
+{% endblock content %}
+ 

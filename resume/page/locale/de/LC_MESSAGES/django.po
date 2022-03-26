@@ -1,0 +1,170 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-11 12:33+0330\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\apps.py:7
+msgid "Page"
+msgstr ""
+
+#: .\models.py:10
+msgid "Degree"
+msgstr ""
+
+#: .\models.py:11
+msgid "Expertise"
+msgstr ""
+
+#: .\models.py:12
+msgid "Details"
+msgstr ""
+
+#: .\models.py:13
+msgid "City"
+msgstr ""
+
+#: .\models.py:14
+msgid "Email"
+msgstr ""
+
+#: .\models.py:15
+msgid "Age"
+msgstr ""
+
+#: .\models.py:16
+msgid "Gender"
+msgstr ""
+
+#: .\models.py:17 .\models.py:80
+msgid "Image"
+msgstr ""
+
+#: .\models.py:18
+msgid "Explanation"
+msgstr ""
+
+#: .\models.py:21
+msgid "About"
+msgstr ""
+
+#: .\models.py:22
+msgid "Abouts"
+msgstr ""
+
+#: .\models.py:31
+msgid "skill introduction"
+msgstr ""
+
+#: .\models.py:34
+msgid "skill_Intro"
+msgstr ""
+
+#: .\models.py:35
+msgid "skill_Intros"
+msgstr ""
+
+#: .\models.py:39 .\models.py:46
+msgid "skill"
+msgstr ""
+
+#: .\models.py:40 .\models.py:47
+msgid "rate"
+msgstr ""
+
+#: .\models.py:58
+msgid "Clients"
+msgstr ""
+
+#: .\models.py:59
+msgid "Projects"
+msgstr ""
+
+#: .\models.py:60
+msgid "Hours Of Support"
+msgstr ""
+
+#: .\models.py:61
+msgid "Year Of Experience"
+msgstr ""
+
+#: .\models.py:64
+msgid "Fact"
+msgstr ""
+
+#: .\models.py:65
+msgid "Facts"
+msgstr ""
+
+#: .\models.py:70
+msgid "introduction"
+msgstr ""
+
+#: .\models.py:73
+msgid "T_Intro"
+msgstr ""
+
+#: .\models.py:74
+msgid "T_Intros"
+msgstr ""
+
+#: .\models.py:77
+msgid "Person Name"
+msgstr ""
+
+#: .\models.py:78
+msgid "Person job"
+msgstr ""
+
+#: .\models.py:79
+msgid "Comments"
+msgstr ""
+
+#: .\models.py:83
+msgid "testimonial"
+msgstr ""
+
+#: .\models.py:84
+msgid "testimonials"
+msgstr ""
+
+# about page translation
+# templates\pages\about.html
+msgid "Skills"
+msgstr ""
+
+# / translation
+# home page translation
+# templates\pages\index.html
+msgid " Home"
+msgstr ""
+
+msgid "Radman"
+msgstr ""
+
+msgid "Resume"
+msgstr ""
+
+msgid "Portfolio"
+msgstr ""
+
+msgid "Contact Me"
+msgstr ""
+
+#base page 
+msgid "Go"
+msgstr "Gehen"

@@ -1,0 +1,260 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-11 12:33+0330\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: .\apps.py:7
+msgid "Page"
+msgstr "صفحه"
+
+#: .\models.py:10
+msgid "Degree"
+msgstr "مقطع"
+
+#: .\models.py:11
+msgid "Expertise"
+msgstr "تخصص"
+
+#: .\models.py:12
+msgid "Details"
+msgstr "جزئیات"
+
+#: .\models.py:13
+msgid "City"
+msgstr "شهر"
+
+#: .\models.py:14
+msgid "Email"
+msgstr "ایمیل"
+
+#: .\models.py:15
+msgid "Age"
+msgstr "سن"
+
+#: .\models.py:16
+msgid "Gender"
+msgstr "جنسیت"
+
+#: .\models.py:17 .\models.py:80
+msgid "Image"
+msgstr "تصاویر"
+
+#: .\models.py:18
+msgid "Explanation"
+msgstr "توضیحات"
+
+#: .\models.py:21
+msgid "About"
+msgstr "درباره من"
+
+#: .\models.py:22
+msgid "Abouts"
+msgstr "درباره"
+
+#: .\models.py:31
+msgid "skill introduction"
+msgstr "توضیح مهارت"
+
+#: .\models.py:34
+msgid "skill_Intro"
+msgstr "مقدمه"
+
+#: .\models.py:35
+msgid "skill_Intros"
+msgstr "مقدمه مهارت "
+
+#: .\models.py:39 .\models.py:46
+msgid "skill"
+msgstr "مهارت"
+
+#: .\models.py:40 .\models.py:47
+msgid "rate"
+msgstr "امتیاز"
+
+#: .\models.py:58
+#, fuzzy
+
+msgid "clients"
+msgstr "مشتریان"
+
+#: .\models.py:59
+#, fuzzy
+
+msgid "projects"
+msgstr "پروژه ها"
+
+#: .\models.py:60
+#, fuzzy
+
+msgid "hours of support"
+msgstr "ساعات پشتیبانی"
+
+#: .\models.py:61
+#, fuzzy
+#| msgid "Expertise"
+msgid "year of experience"
+msgstr " سال تخصص "
+
+#: .\models.py:64
+msgid "Fact"
+msgstr "مستندات"
+
+#: .\models.py:65
+msgid "Facts"
+msgstr "مستندها"
+
+#: .\models.py:70
+msgid "introduction"
+msgstr "توضیح مقدمه"
+
+#: .\models.py:73
+msgid "T_Intro"
+msgstr "مقدمه"
+
+#: .\models.py:74
+msgid "T_Intros"
+msgstr "توضیح نظرات"
+
+#: .\models.py:77
+msgid "Person Name"
+msgstr "نام شخص"
+
+#: .\models.py:78
+msgid "Person job"
+msgstr "شغل شخص"
+
+#: .\models.py:79
+msgid "Comments"
+msgstr "نظر"
+
+#: .\models.py:83
+msgid "testimonial"
+msgstr "توصیف"
+
+#: .\models.py:84
+msgid "testimonials"
+msgstr "توصیفات"
+
+# about page translation
+# templates\pages\about.html
+msgid "Skills"
+msgstr " مهارت ها"
+
+# / translation
+# home page translation
+# templates\pages\index.html
+msgid " Home"
+msgstr "صفحه اصلی"
+
+msgid "Radman"
+msgstr "رادمان"
+
+msgid "Resume"
+msgstr "سوابق"
+
+msgid "Portfolio"
+msgstr "نمونه کارها"
+
+msgid "Contact Me"
+msgstr "تماس با من"
+
+msgid "Clients"
+msgstr "مشتریان "
+
+msgid "Projects"
+msgstr "پروژه ها"
+
+msgid "Hours Of Support"
+msgstr "ساعات پشتیبانی"
+
+msgid "Year Of Experience"
+msgstr "سال تخصص"
+
+msgid "Phone"
+msgstr "شماره تماس"
+
+msgid "Birthday"
+msgstr "متولد"
+
+msgid "Interest in"
+msgstr "علاقه مند به"
+
+msgid "Freelance"
+msgstr "فریلنسر"
+
+msgid " Available"
+msgstr "در دسترس"
+
+msgid "years old"
+msgstr "سال"
+
+msgid "Machine learning"
+msgstr "ماشین لرنینگ و هوش مصنوعی"
+
+msgid "17 feb 2001"
+msgstr "1379 / بهمن / 29"
+
+# index page
+msgid "Radman Tavana"
+msgstr "رادمان توانا"
+
+
+msgid "Life is not about finding yourself. Life is about creating yourself"
+msgstr "زندگی خودت را پیدا کردن نیست. زندگی یعنی خودت را ساختن"
+
+msgid "WEB DEVELOPER"
+msgstr "توسعه دهنده وب"
+
+msgid "About Me"
+msgstr "درباره من"
+
+#base page
+msgid "Go"
+msgstr "برو"
+
+
+
+#contact us page 
+msgid "Contact"
+msgstr "تماس با من"
+
+msgid "Location"
+msgstr "موقعیت مکانی"
+
+msgid "Fatemi Street , Tehran , IR 06"
+msgstr "تهران خیابان فاطمی ، منطقه 6"
+
+msgid "Call"
+msgstr "تماس"
+
+msgid "Your Name"
+msgstr "نام"
+
+msgid "Your Email"
+msgstr "ایمیل"
+
+msgid "Subject"
+msgstr "موضوع"
+
+msgid "Message"
+msgstr "متن شما.."
+
+msgid "Send Message"
+msgstr "ارسال"
+
+

@@ -1,0 +1,188 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+{% block content %}
+
+  
+  <main id="main" >
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+        {% if abouts %}
+        <div class="section-title"  >
+          <h2 {% if LANGUAGE_BIDI %} style="font-family: Shabnam !important ;" {% endif %}> {% translate "About" %} </h2>
+          <p></p>
+        </div>
+
+        <div class="row" {% if LANGUAGE_BIDI %} dir="rtl" style="font-family: Shabnam;" {% endif %} >
+          <div class="col-lg-4">
+            <img src="{{abouts.image.url}}" class="img-fluid me-2" alt="radman" style="border-radius : 20px">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content">
+            <h3 {% if LANGUAGE_BIDI %} style="font-family: Shabnam !important ;" {% endif %} >{{abouts.expertise}}</h3>
+            <p class="fst-italic">
+              {{ abouts.details }}
+            </p>
+            <div class="row" {% if LANGUAGE_BIDI %} dir="rtl"  {% endif %} >
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-rounded-right"></i> <strong>{% translate "Birthday" %}:</strong> {% translate "17 feb 2001" %}</li>
+                  <li><i class="bi bi-rounded-right"></i> <strong>{% translate "Interest in" %}:</strong> {% translate "Machine learning" %}</li>
+                  <li><i class="bi bi-rounded-right"></i> <strong >{% translate "Phone" %}:</strong> +98 939 109 4958</li>
+                  <li><i class="bi bi-rounded-right"></i> <strong>{% translate "City" %}:</strong> {{abouts.city}}</li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul> 
+                  <li><i class="bi bi-rounded-right"></i> 
+                    <strong>{% translate "Age" %}:</strong> {{abouts.age}} {% translate "years old" %}
+                  </li>
+                  <li><i class="bi bi-rounded-right"></i> 
+                    <strong>{% translate "Degree"%}: </strong> {{abouts.degree}}
+                  </li>
+                  <li><i class="bi bi-rounded-right"></i> 
+                    <strong>{% translate "Email" %}:</strong> {{abouts.email}} 
+                  </li>
+                  <li><i class="bi bi-rounded-right"></i> 
+                    <strong>{% translate "Freelance" %}:</strong>{% translate " Available" %} 
+              </div>
+            </div>
+            <p style="margin-top : 25px !important ; text-align : justify">
+              {{ abouts.explanation }}
+            </p>
+          </div>
+        </div>
+      {% else %}
+      <h1> not found anything </h1>
+      {% endif %}
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Skills Section ======= -->
+    
+    <section id="skills" class="skills">
+      <div class="container" data-aos="fade-up">
+        {% if skill_intro %}
+        <div class="section-title">
+          <h2 {% if LANGUAGE_BIDI %} style="font-family: Shabnam !important ;" {% endif %}>{% translate "Skills" %}</h2>
+          
+          <p {% if LANGUAGE_BIDI %} style="font-family: Shabnam !important ;" dir="rtl" {% endif %}> {{skill_intro.intro}} </p>
+          
+        </div>
+        {% endif %}
+        <div class="row skills-content">
+          {% if c_skill %}
+          <div class="col-lg-6">
+            {% for skill in c_skill %}
+            <div class="progress">
+              <span class="skill">{{skill.skill_name}} <i class="val">{{skill.skill_rate}}%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="{{skill.skill_rate}}" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+          {% endif %}
+          {% if c_skill2 %}
+          <div class="col-lg-6">
+            {% for skill2 in c_skill2 %}
+            <div class="progress">
+              <span class="skill"> {{skill2.skill_name}} <i class="val">{{skill2.skill_rate}}%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="{{skill2.skill_rate}}" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            {% endfor %}
+          {% endif %}
+          </div>
+       
+        </div>
+      
+      </div>
+    </section><!-- End Skills Section -->
+
+    <!-- ======= Facts Section ======= -->
+    {% if fact %}
+    <section id="facts" class="facts">
+      <div class="container" data-aos="fade-up" {% if LANGUAGE_BIDI %} style="font-family: Shabnam !important ;" {% endif %}>
+
+        <div class="section-title">
+          <h2 {% if LANGUAGE_BIDI %} style="font-family: Shabnam !important ;" {% endif %}>{% translate "Facts" %}</h2>
+          <p>{{fact.intro}}</p>
+        </div>
+
+        <div class="row counters">
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="{{fact.client}}" data-purecounter-duration="1" class="purecounter"></span>
+            <p {% if LANGUAGE_BIDI %} style="font-family: Shabnam !important ;" {% endif %}>
+              {% translate "Clients" %}
+            </p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="{{fact.projects}}" data-purecounter-duration="1" class="purecounter"></span>
+            <p {% if LANGUAGE_BIDI %} style="font-family: Shabnam !important ;" {% endif %}>
+              {% translate "Projects" %}
+            </p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="{{fact.hour_of_support}}" data-purecounter-duration="1" class="purecounter"></span>
+            <p {% if LANGUAGE_BIDI %} style="font-family: Shabnam !important ;" {% endif %}>
+              {% translate "Hours Of Support" %}
+            </p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="{{fact.experience}}" data-purecounter-duration="1" class="purecounter"></span>
+            <p {% if LANGUAGE_BIDI %} style="font-family: Shabnam !important ;" {% endif %}>
+              {% translate "Year Of Experience" %}
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section> 
+    {% endif %}
+    <!-- ======= Testimonials Section ======= -->
+    
+    <section id="testimonials" class="testimonials">
+      <div class="container" data-aos="fade-up">
+        {% if comment_intro %}
+        <div class="section-title">
+          <h2 {% if LANGUAGE_BIDI %} style="font-family: Shabnam !important ;" {% endif %}>{% translate "testimonials" %}</h2>
+          <p {% if LANGUAGE_BIDI %} style="font-family: Shabnam !important ;" {% endif %}> {{comment_intro.intro}} </p>
+        </div>
+        {% endif %}
+        {% if comments %}
+        <div class="testimonials-slider swiper mt-5" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+            {% for comment in comments %}
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="{{comment.image.url}}" class="testimonial-img" alt="comments">
+                <h3 {% if LANGUAGE_BIDI %} style="font-family: Shabnam !important ;" {% endif %}>{{comment.person_name}}</h3>
+                <h4 {% if LANGUAGE_BIDI %} style="font-family: Shabnam !important ;" {% endif %}>{{comment.person_job}}</h4>
+                <p {% if LANGUAGE_BIDI %} style="font-family: Shabnam !important ;" {% endif %}>
+                  <i class="bx bxs-quote-alt-left quote-icon-left" ></i>
+                  {{comment.comments}}
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+            {% endfor %}
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+        
+
+      </div>
+    </section><!-- End Testimonials Section -->
+    {% endif %}
+  </main><!-- End #main -->
+
+{% endblock content %}

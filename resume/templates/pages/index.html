@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+{% block content %}
+    
+
+ <!-- ======= Hero Section ======= -->
+    <div class="bg-image"></div>
+
+    <div class="container d-flex flex-column align-items-center bg-text" data-aos="zoom-in" data-aos-delay="100">
+        <h1>Radman Tavana</h1>
+        <h2>I'm a professional developer from Tehran , IR</h2>
+        
+    </div>
+    
+
+{% endblock content %}
+
+<!--
+
+#e5c73180
+#4a4991
+
+#34b7a773;
+#dd2b19cf;
+
+<form action="{% url 'set_language' %}" method="post">{% csrf_token %}
+    <input name="next" type="hidden" value="{{ redirect_to }}">
+    <select name="language">
+        {% get_current_language as LANGUAGE_CODE %}
+        {% get_available_languages as LANGUAGES %}
+        {% get_language_info_list for LANGUAGES as languages %}
+        {% for language in languages %}
+            <option value="{{ language.code }}"{% if language.code == LANGUAGE_CODE %} selected{% endif %}>
+                {{ language.name_local }} ({{ language.code }})
+            </option>
+        {% endfor %}
+    </select>
+    <input type="submit" value="Go">
+</form>
+
+<section id="hero" class="d-flex align-items-center">
+  <div class="container d-flex flex-column align-items-center" data-aos="zoom-in" data-aos-delay="100">
+    <h1>Radman Tavana</h1>
+    <h2>I'm a professional developer from Tehran , IR</h2>
+    <a href="{% url 'about' %}" class="btn-about">About Me</a>
+  </div>
+</section><!-- End Hero -->

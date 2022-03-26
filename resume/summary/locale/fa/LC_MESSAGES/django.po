@@ -1,0 +1,106 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-21 09:18+0330\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: .\apps.py:7
+msgid "resume"
+msgstr ""
+
+#: .\models.py:10 .\models.py:26
+msgid "title"
+msgstr "عنوان"
+
+#: .\models.py:11 .\models.py:27
+msgid "sub title"
+msgstr "زیر عنوان"
+
+#: .\models.py:12 .\models.py:28
+msgid "start date"
+msgstr "شروع دوره"
+
+#: .\models.py:13 .\models.py:29
+msgid "end date"
+msgstr "پایان دوره"
+
+#: .\models.py:14 .\models.py:30
+msgid "custom duration "
+msgstr "مدت زمان دستی"
+
+#: .\models.py:15 .\models.py:31
+msgid "details"
+msgstr "جزِئیات"
+
+#: .\models.py:18
+msgid "Work"
+msgstr "شغل"
+
+#: .\models.py:19
+msgid "Works"
+msgstr "مشاغل"
+
+#: .\models.py:34
+msgid "education"
+msgstr "تحصیل"
+
+#: .\models.py:35
+msgid "educations"
+msgstr "تحصیلات"
+
+#resume page 
+msgid "Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas."
+msgstr "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است"
+
+msgid "Education"
+msgstr "تحصیلات"
+
+msgid "Work Experirnce"
+msgstr "سوابق شغلی"
+
+msgid "Services"
+msgstr "خدمات"
+
+msgid "website design"
+msgstr "طراحی و توسعه سایت"
+
+msgid "website support"
+msgstr "پشتیبانی سایت"
+
+msgid "web scrapping"
+msgstr "وب اسکرپینگ"
+
+msgid "SEO Opptimaziation"
+msgstr "بهینه سازی سایت"
+
+msgid "teach programming"
+msgstr "تدریس و آموزش برنامه نویسی"
+
+msgid "photoshop services"
+msgstr "خدمات طراحی با فتوشاپ"
+
+msgid "Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur"
+msgstr "استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در است"
+
+#msgid "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis"
+#msgstr "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده است"
+
+#msgid "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia"
+#msgstr "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان"
+
+#msgid "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore"
+#msgstr "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از
